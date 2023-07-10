@@ -1,10 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
+
+
 *{
     padding: 0px;
     margin: 0px;
+    font-family: 'Lato', sans-serif;
 }
 
 header{
-    height: 850px;
+    aspect-ratio: 1920/850;
     width: 100%;
-    background-color: red;
+    background-color: #FDEEF1;
+}
+.banner{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.banner-img{
+    aspect-ratio: 635/800;
+    padding-top: 45px;
+    padding-bottom: 0px;
+    
+
+}
+.quote{
+    font-weight: 900;
+    font-size: 80px;
+    color: #272727;
+}
+.banner-content{
+    max-width: 708px;
+    padding-left: 100px;
+}
+.description{
+    color: #7C7677;
+    font-size: 18px;
+}
+header .description{
+    margin: 32px auto;
+}
+.btn{
+    padding: 20px 43px;
+    background-color: #E55473;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    color: white;
 }
