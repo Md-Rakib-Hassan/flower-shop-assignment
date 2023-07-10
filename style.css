@@ -55,11 +55,11 @@ header .description{
 }
 .fetured-flower{
     height: 100vh;
-    width: 60%;
+    width: 75%;
     margin: auto;
     display: flex;
     justify-content: space-around;
-    align-items: center;
+
 }
 .fetured-images-container{
     display: flex;
@@ -118,4 +118,21 @@ header .description{
     text-decoration: underline;
     font-weight: 700;
     padding-top: 32px;
+}
+.delivery-section{
+    width: 75%;
+    margin: auto;
+    border-radius: 5px;
+    background-color: #F4F4F4;
+
+}
+.delivery-container{
+   display:flex;
+   justify-content: space-around;
+   padding: 86px 0px;
+}
+.delivery{
+display: block;
+align-items: center;
+
 }
