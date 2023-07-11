@@ -46,7 +46,7 @@ header .description{
     margin: 32px auto;
 }
 .btn{
-    padding: 16px 40px;
+    padding: 15px 25px;
     background-color: #E55473;
     border: none;
     border-radius: 10px;
@@ -185,4 +185,36 @@ header .description{
     width: 270px;
     
     
+}
+.latest-deal-section{
+    width: 75%;
+    margin: 128px auto;
+    background-image: url(images/Rectangle\ 9.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.latest-deal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content-container{
+    text-align: center;
+    padding: 100px 187px 100px 209px;
+}
+input{
+    height: 52px;
+    width: 500px;
+    border: none;
+    border-radius: 5px;
+    padding-left: 20px;
+}
+.input-field{
+    display: flex;
+    align-items: center;
+    gap: 10px
+}
+.content-container .description{
+    padding: 16px 0px 48px 0px;
 }
