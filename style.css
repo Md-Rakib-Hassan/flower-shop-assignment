@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap');
 
 
 *{
@@ -141,9 +141,7 @@ header .description{
     color: #505050;
     font-weight: 600;
 }
-.special{
-    color: #E55473;
-}
+
 
 .hot-deal-container{
     display: flex;
@@ -189,6 +187,7 @@ header .description{
 .latest-deal-section{
     width: 75%;
     margin: 128px auto;
+    border-radius: 5px;
     background-image: url(images/Rectangle\ 9.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -217,4 +216,33 @@ input{
 }
 .content-container .description{
     padding: 16px 0px 48px 0px;
+}
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #111010;
+}
+
+.footer-content{
+    padding: 128px 0px;
+    max-width: 490px;
+}
+
+.footer-content .title{
+    color: white;
+}
+
+.special{
+    color: #E55473;
+}
+.copyright{
+    color: #707070;
+    font-size: 12px;
+}
+.footer-content .description{
+    color: #E7E7E7;
+    padding: 24px 0px 32px 0px;
+    font-size: 14px;
 }
