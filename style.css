@@ -128,11 +128,40 @@ header .description{
 }
 .delivery-container{
    display:flex;
-   justify-content: space-around;
+   justify-content:space-around;
    padding: 86px 0px;
+   
 }
-.delivery{
-display: block;
-align-items: center;
+.delevery>img{
+    padding-left: 30%;
+}
+.delevery p{
+    color: #505050;
+    font-weight: 600;
+}
+.special{
+    color: #E55473;
+}
 
+.hot-deal-container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #FDF6F8;
+    margin-top: 128px;
+}
+
+.hot-deal-content
+{
+    max-width: 590px;
+    padding-left: 30px;
+    text-align: center;
+
+}
+.hot-deal-content .description{
+    padding: 24px;
+}
+
+.hot-deal-img>img{
+    padding: 100px;
 }
