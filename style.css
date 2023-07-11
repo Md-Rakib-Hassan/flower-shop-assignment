@@ -306,4 +306,5 @@ text-align: center;
 }
 .testimonial-box:hover{
     background-color: #7bff0024;
+    box-shadow: 0px 0px 20px #171717c0;
 }
